@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_article_tiles",
+  "info": {
+    "singularName": "homepage-article-tile",
+    "pluralName": "homepage-article-tiles",
+    "displayName": "Homepage article tile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tile_title": {
+      "type": "string"
+    },
+    "tile_subtitle": {
+      "type": "string"
+    },
+    "tile_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

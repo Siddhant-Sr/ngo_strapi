@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs_articles",
+  "info": {
+    "singularName": "programs-article",
+    "pluralName": "programs-articles",
+    "displayName": "programs article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "top_heading": {
+      "type": "string"
+    },
+    "article_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading_one": {
+      "type": "string"
+    },
+    "content_one": {
+      "type": "text"
+    },
+    "heading_two": {
+      "type": "string"
+    },
+    "content_two": {
+      "type": "text"
+    },
+    "heading_three": {
+      "type": "string"
+    },
+    "content_three": {
+      "type": "text"
+    },
+    "heading_four": {
+      "type": "string"
+    },
+    "content_four": {
+      "type": "text"
+    },
+    "heading_five": {
+      "type": "string"
+    },
+    "content_five": {
+      "type": "text"
+    },
+    "heading_six": {
+      "type": "string"
+    },
+    "content_six": {
+      "type": "text"
+    }
+  }
+}
